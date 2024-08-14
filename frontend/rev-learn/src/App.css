@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Button{
+  background-color: rgb(191, 64, 33);
+  color: rgb(45, 114, 18);
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-size: x-large;
+  background-color: #a9edf7;
+  background-image: url("../images/BG/DesignBG.png");
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #494b57;
+}
+button{
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif; */
+  /* font-size: xx-large; */
+  margin: 12px auto;
+  padding: 12px 24px;
+}
+button:hover{
+  background-color: rgb(32, 198, 62);
+  cursor:pointer;
+  
+}
+table{
+  margin: 4px;
+  padding: 6px 12px;
+  background-color: '#F36928';
+  border-radius: 8px;
+  box-shadow: 4px 8px 2px rbga(0,0,0,.2);
+}
+td{
+  padding: 6px 12px;
+}
+.orange-btn{
+  background-color: #F36928;
+  color: white;
+  font-weight: 700;
+  border:none;
+
+}
+.orange-outline-btn{
+  border: 1px solid #F36928;
+  color: #F36928;
+  background-color: white;
+  font-weight: 700;
+}
+.grey-btn{
+  background-color: #494b57;
+  color: white;
+  font-weight: 700;
+  border:none;
+}
+.grey-outline-btn{
+  border: 1px solid #494b57;
+  color: #494b57;
+  font-weight: 700;
+}
+
+.orange-outline-btn:hover{
+  background-color: #f48b5b;
+  color: white;
+  cursor: pointer;
+}
+
+.orange-btn:hover{
+  background-color: #45776227;
+  color: #F36928;
+  cursor: pointer;
+}
+
+.grey-outline-btn:hover{
+  background-color: #282c34;
+  color: white;
+  cursor: pointer;
+}
+
+.grey-btn:hover{
+  background-color: #45776227;
+  color: #494b57;
+  cursor: pointer;
+}
+/* h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: '#F36928';
+  text-align: center;
+  border-radius: 8px;
+  padding: 6px 12px;
+} */
+/* nav{
+  padding: 8px;
+  background-color: rgb(91, 133, 145);
+} */
+/* a{
+  font-size: medium;
+  text-align: center;
+  text-decoration: none;
+  color:black;
+  box-shadow: 0 8px 12px rbga(0,0,0,.2);
+
+  padding: 3px 6px;
+  margin: 2px;
+
+  border-radius: 4px;
+  border-width: 2px;
+  border-color:black;
+}
+a:hover{
+  background-color: rgb(32, 198, 62);
+} */
